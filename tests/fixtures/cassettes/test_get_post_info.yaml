@@ -1,0 +1,103 @@
+interactions:
+- request:
+    body: '<?xml version=''1.0'' encoding=''utf-8''?>
+
+      <soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Body><ns0:solicitaXmlPlp
+      xmlns:ns0="http://cliente.bean.master.sigep.bsb.correios.com.br/"><idPlpMaster>875057</idPlpMaster><usuario>sigep</usuario><senha>n5f9t8</senha></ns0:solicitaXmlPlp></soap-env:Body></soap-env:Envelope>'
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Length: ['353']
+      Content-Type: [text/xml; charset=utf-8]
+      SOAPAction: ['""']
+      User-Agent: [Zeep/2.4.0 (www.python-zeep.org)]
+    method: POST
+    uri: https://apphom.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA31YTXPbNhC991dwdMgpJkFKlCXHdkZ2Pa0yseWR005vGoiEFWRIgAFATdpf3yXB
+        DxAEpZO4b98CWOw+AryVHBc3T+xMMl4Q71eeMXlT2e5m35UqboJAJt9JjqUPUGX3uTgF1Z+ANKRg
+        dn9bR3ng6b/3t0xGECCjCVX4nzx7zYo9kQVnso0ODl3wJKOEKeIfCWY+jKKI8CU9kcI/yqOfcCEI
+        5RL+5P5RVAMJokrB7j9k6tNnCOediZCUs7tZ6KOZR1jCU8pOd7Pt2+5qtYrXV+Hs84eT+lQR2nAZ
+        P1Wm3zyvsipa8AMWP0t65pX5lUuFTySvsMAGG041Kh4AkT+vCWOkoRRZ0TzpZ5oeGtPqOkbxdc3u
+        jZ3fGWdcHE4ZP+KsHijyo0gPZSEdJU/KQ8loilNyKNrVgMMiXKCaOeXQRWA8J06PzaP3vH3Zvn17
+        2m933u8b73mz3778uanDTrK6uAkWCrJjYgjWjsLVGoV1DIdHk8Cgz0z1KEhOVFU7w4mXORH8kHCm
+        BFZ1/tfrMIrQKo5jPcmxh81OKVQZFxRXYIhM2gDqlwVFd4JNT3PKqKziNnuPVmgVLWMdYtJrmPbB
+        wv7GMuFeir0/cI77JLsXD3UtcMpLmOfAYV9ib8OgHSGKoFAtKf3ohUjPaopkJ2UAtmQXZmQlLzJA
+        mLI8mmxMoB3/iKmwgz/yAif4iJlOhsulH58UQwTKYBHClujxbbTn6QIeppDCLhDvC2aECq4DONy6
+        GOW7xf9Sc2xz569IRt45I45EuaGO+Y5/OUgja+cPWk4zB8NhbxvPZXznIseHAp9wvYX9wGN7w+DH
+        H9A6urMzV4URRX+WRNWt9baL5ihaRuvl+mFvlprpZPdfM0LzTjEqbQK1+ZKIM00seVosl2szjMup
+        D1QeW5vm9M+dT0GkfmNEjS60hs5DqLB6fkD6F8Za7xuz4RZ1AzX/OywlUlGGFfR7H9sQGRt/LlkK
+        Fc6l9wh9WSpQBEGk95X/wN62150LYbsytX2GRXwhQkKyMsPCHWAKNPi6gp1sN2RwDRW0vTZn33su
+        FRWY24J5aTGGvLkXdMHB3K2m7Fk68gpX8XLQGg6friCCSYThBA5QRksO1NemPT69fNvvTPG9lAQt
+        kbbH22bnvW7++rq7eouQqaUXQoFyjsK8tpp6saiKEYzi5XyN5v174OI+1l1fyrICDfUyNWGMDmYA
+        Jw3QnVK6tGkCHFcA4wof3qlM9ADhIlqYm2/BBh8EixIbr6lOxGDqA6aFo4/IOH1OkyGdpSD/YefI
+        U6DBhz1JBE1wK9wd1wWMJo3hgHcUWIxnbCJ9d4yaoMlcLfU4paMWGY2YkgT0CYShm6jDPvXGGYwQ
+        xa73zcCl3b6J6dX5o6AtcipL9b2mR6L+suN074LhDDaufvmufJ1VB+QiQg5ODTyPbaoBuriVVAra
+        nSciZPMtB1eMlMKBBFqtLgibb4KGYk5ksI4LYtEdAQ4S68lHKLxGy0ZY3C59cSnoAXkoBE+IlP1p
+        SV+DptDxRQdWzs8YZGNwIplH6+s5sq88bl/rqlm3R8pdd00Das+G41NdU7yDq/Zt0Nzbb4PpzwMA
+        Gp8RgsGHifv/AeHvmYKoEAAA
+    headers:
+      Connection: [Keep-Alive]
+      Content-Encoding: [gzip]
+      Content-Length: ['1215']
+      Content-Type: [text/xml;charset=UTF-8]
+      Date: ['Thu, 26 Oct 2017 17:31:51 GMT']
+      Keep-Alive: ['timeout=5, max=100']
+      Set-Cookie: [JSESSIONID=0DWuM084oQwBD0y+4tG8D-Ma.39987725-7faa-3e86-8a45-e6c0e8576534;
+          Path=/SigepMasterJPA; Secure]
+      Vary: ['Accept-Encoding,User-Agent']
+    status: {code: 200, message: OK}
+- request:
+    body: '<?xml version=''1.0'' encoding=''utf-8''?>
+
+      <soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Body><ns0:solicitaXmlPlp
+      xmlns:ns0="http://cliente.bean.master.sigep.bsb.correios.com.br/"><idPlpMaster>875057</idPlpMaster><usuario>sigep</usuario><senha>n5f9t8</senha></ns0:solicitaXmlPlp></soap-env:Body></soap-env:Envelope>'
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Length: ['353']
+      Content-Type: [text/xml; charset=utf-8]
+      Cookie: [JSESSIONID=0DWuM084oQwBD0y+4tG8D-Ma.39987725-7faa-3e86-8a45-e6c0e8576534]
+      SOAPAction: ['""']
+      User-Agent: [Zeep/2.4.0 (www.python-zeep.org)]
+    method: POST
+    uri: https://apphom.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA31YTXPbNhC991dwdMgpJkFKlCXHdkZ2Pa0yseWR005vGoiEFWRIgAFATdpf3yXB
+        DxAEpZO4b98CWOw+AryVHBc3T+xMMl4Q71eeMXlT2e5m35UqboJAJt9JjqUPUGX3uTgF1Z+ANKRg
+        dn9bR3ng6b/3t0xGECCjCVX4nzx7zYo9kQVnso0ODl3wJKOEKeIfCWY+jKKI8CU9kcI/yqOfcCEI
+        5RL+5P5RVAMJokrB7j9k6tNnCOediZCUs7tZ6KOZR1jCU8pOd7Pt2+5qtYrXV+Hs84eT+lQR2nAZ
+        P1Wm3zyvsipa8AMWP0t65pX5lUuFTySvsMAGG041Kh4AkT+vCWOkoRRZ0TzpZ5oeGtPqOkbxdc3u
+        jZ3fGWdcHE4ZP+KsHijyo0gPZSEdJU/KQ8loilNyKNrVgMMiXKCaOeXQRWA8J06PzaP3vH3Zvn17
+        2m933u8b73mz3778uanDTrK6uAkWCrJjYgjWjsLVGoV1DIdHk8Cgz0z1KEhOVFU7w4mXORH8kHCm
+        BFZ1/tfrMIrQKo5jPcmxh81OKVQZFxRXYIhM2gDqlwVFd4JNT3PKqKziNnuPVmgVLWMdYtJrmPbB
+        wv7GMuFeir0/cI77JLsXD3UtcMpLmOfAYV9ib8OgHSGKoFAtKf3ohUjPaopkJ2UAtmQXZmQlLzJA
+        mLI8mmxMoB3/iKmwgz/yAif4iJlOhsulH58UQwTKYBHClujxbbTn6QIeppDCLhDvC2aECq4DONy6
+        GOW7xf9Sc2xz569IRt45I45EuaGO+Y5/OUgja+cPWk4zB8NhbxvPZXznIseHAp9wvYX9wGN7w+DH
+        H9A6urMzV4URRX+WRNWt9baL5ihaRuvl+mFvlprpZPdfM0LzTjEqbQK1+ZKIM00seVosl2szjMup
+        D1QeW5vm9M+dT0GkfmNEjS60hs5DqLB6fkD6F8Za7xuz4RZ1AzX/OywlUlGGFfR7H9sQGRt/LlkK
+        Fc6l9wh9WSpQBEGk95X/wN62150LYbsytX2GRXwhQkKyMsPCHWAKNPi6gp1sN2RwDRW0vTZn33su
+        FRWY24J5aTGGvLkXdMHB3K2m7Fk68gpX8XLQGg6friCCSYThBA5QRksO1NemPT69fNvvTPG9lAQt
+        kbbH22bnvW7++rq7eouQqaUXQoFyjsK8tpp6saiKEYzi5XyN5v174OI+1l1fyrICDfUyNWGMDmYA
+        Jw3QnVK6tGkCHFcA4wof3qlM9ADhIlqYm2/BBh8EixIbr6lOxGDqA6aFo4/IOH1OkyGdpSD/YefI
+        U6DBhz1JBE1wK9wd1wWMJo3hgHcUWIxnbCJ9d4yaoMlcLfU4paMWGY2YkgT0CYShm6jDPvXGGYwQ
+        xa73zcCl3b6J6dX5o6AtcipL9b2mR6L+suN074LhDDaufvmufJ1VB+QiQg5ODTyPbaoBuriVVAra
+        nSciZPMtB1eMlMKBBFqtLgibb4KGYk5ksI4LYtEdAQ4S68lHKLxGy0ZY3C59cSnoAXkoBE+IlP1p
+        SV+DptDxRQdWzs8YZGNwIplH6+s5sq88bl/rqlm3R8pdd00Das+G41NdU7yDq/Zt0Nzbb4PpzwMA
+        Gp8RgsGHifv/AeHvmYKoEAAA
+    headers:
+      Connection: [Keep-Alive]
+      Content-Encoding: [gzip]
+      Content-Length: ['1215']
+      Content-Type: [text/xml;charset=UTF-8]
+      Date: ['Thu, 26 Oct 2017 17:31:51 GMT']
+      Keep-Alive: ['timeout=5, max=99']
+      Vary: ['Accept-Encoding,User-Agent']
+    status: {code: 200, message: OK}
+version: 1
